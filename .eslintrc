@@ -1,32 +1,39 @@
 {
-  'extends': 'airbnb',
-  'parser': 'babel-eslint',
-  'plugins': [
-    'react',
-    'flowtype'
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "flowtype"
   ],
-  'rules': {
-    'max-len': 'off',
-    'no-shadow': 'off',
-    'global-require': 'off',
-    'no-underscore-dangle': ['error', { 'allowAfterThis': false, 'allow': ['_czc', '_active'] }],
-    'consistent-return': 'off',
-    'react/sort-comp': [2, {
-      order: [
-        '/^props$/',
-        'static-methods',
-        'lifecycle',
-        '/^on.+$/',
-        '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-        'everything-else',
-        '/^render.+$/',
-        'render'
+  "rules": {
+    "max-len": "off",
+    "no-shadow": "off",
+    "global-require": "off",
+    "no-underscore-dangle": ["error", { "allowAfterThis": false, "allow": ["_czc", "_active"] }],
+    "consistent-return": "off",
+    "react/sort-comp": [2, {
+      "order": [
+        "/^props$/",
+        "static-methods",
+        "lifecycle",
+        "/^on.+$/",
+        "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
+        "everything-else",
+        "/^render.+$/",
+        "render"
       ],
     }],
-    'react/prefer-stateless-function': 'off',
-    'no-use-before-define': 'off',
-    'no-param-reassign': 'off',
+    "react/prefer-stateless-function": "off",
+    "no-use-before-define": "off",
+    "no-param-reassign": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    'react/forbid-prop-types': 'off',
+    "react/forbid-prop-types": "off",
+    "no-useless-escape": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "import/export": "off",
+    "import/prefer-default-export": "off",
+    "no-undef": "off"
   }
 }

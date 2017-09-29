@@ -21,3 +21,7 @@ npm i
 react-native run-ios
 react-native run-android
 ```
+
+**For example with REDUX integration**
+
+Refer to [ReactNavDrawerRedux](https://github.com/kyaroru/ReactNavDrawerRedux)
