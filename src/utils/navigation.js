@@ -40,4 +40,7 @@ export const getDrawerConfig = (drawerWidth, drawerPosition, initialRouteName) =
   drawerWidth,
   drawerPosition,
   initialRouteName,
+  drawerOpenRoute: 'DrawerOpen',
+  drawerCloseRoute: 'DrawerClose',
+  drawerToggleRoute: 'DrawerToggle',
 });
