@@ -4,7 +4,9 @@ A simple example of using DrawerNavigator in React Navigation
 
 It consists of a fake login page (without drawer) and also other pages that can be seen only after login (with drawer)
 
-Navigation Structure
+![Demo](http://g.recordit.co/PqmAGEZiYx.gif)
+
+**Navigation Structure**
 ```
 -StackNavigator
    -LoginScreen
@@ -25,3 +27,7 @@ react-native run-android
 **For example with REDUX integration**
 
 Refer to [ReactNavDrawerRedux](https://github.com/kyaroru/ReactNavDrawerRedux)
+
+**For TabNavigator example with REDUX integration**
+
+Refer to [ReactNavTab](https://github.com/kyaroru/ReactNavTab)
